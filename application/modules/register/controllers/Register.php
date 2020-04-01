@@ -19,7 +19,7 @@ class Register extends MY_Controller
 
     public function addUser()
     {
-    	$this->load->helper(array('form', 'url', 'file'));
+    	$this->load->helper(array('file'));
 
         $this->load->library('form_validation');
 
